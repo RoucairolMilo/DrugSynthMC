@@ -1,7 +1,7 @@
 use std::thread;
 use std::thread::JoinHandle;
 use std::time::Instant;
-use crate::models::HPmodel::{State};
+use crate::models::SMILESgen::{State, Move};
 use crate::tools::calc::softmaxChoice;
 use crate::tools::resultSaver::writeLine;
 

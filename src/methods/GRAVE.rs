@@ -1,6 +1,4 @@
-//use crate::models::HPmodel::{State, Move};
-//use crate::models::conjectures::GenerateGraph::{State, Move};
-use crate::models::Network::{State, Move};
+use crate::models::SMILESgen::{State, Move};
 use std::collections::HashMap;
 use crate::tools::calc::softmaxChoice;
 use std::time::Instant;

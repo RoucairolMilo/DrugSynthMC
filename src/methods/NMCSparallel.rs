@@ -1,4 +1,4 @@
-use crate::models::conjectures::conjecture2p1::{State};
+use crate::models::SMILESgen::{State, Move};
 use std::thread;
 use std::thread::JoinHandle;
 use crate::tools::calc::softmaxChoice;

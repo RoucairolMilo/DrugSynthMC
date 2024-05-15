@@ -1,8 +1,7 @@
 use std::thread;
 use std::thread::JoinHandle;
 use std::time::Instant;
-//use crate::models::HPmodel::{State};
-use crate::models::conjectures::GenerateGraph::{State};
+use crate::models::SMILESgen::{State, Move};
 use crate::tools::calc::softmaxChoice;
 
 //l'idée c'est d'évaluer avec un playout ou un NMCS de bas niveau avant de lancer un NMCS de haut niveau dessus

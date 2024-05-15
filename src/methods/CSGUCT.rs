@@ -1,5 +1,4 @@
-//use crate::models::coalition::{State, Move};
-use crate::models::Network::{State, Move};
+use crate::models::SMILESgen::{State, Move};
 use std::collections::HashMap;
 use rand::random;
 use crate::tools::calc::softmaxChoice;

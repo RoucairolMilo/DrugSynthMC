@@ -1,10 +1,6 @@
 use nalgebra::min;
 use crate::methods::BFS;
-//use crate::models::conjectures::GenerateGraph::{State, Move};
-//use crate::models::Network::{State, Move};
-//use crate::models::conjectures::conjecture2p4::{State, Move};
-use crate::models::conjectures::extremal::{State};
-//use crate::models::nonoGramSolver::{State};
+use crate::models::SMILESgen::{State, Move};
 use crate::tools::calc::softmaxChoice;
 use crate::methods::NMCS;
 use std::time::Instant;

@@ -1,7 +1,5 @@
 use std::fs::{self, File};
-//use crate::models::conjectures::GenerateGraph::{State};
-//use crate::models::Network::{State};
-use crate::models::SMILESgen::{State};
+use crate::models::SMILESgen::{State, Move};
 use crate::tools::calc::softmaxChoice;
 use crate::tools::resultSaver::writeLine;
 use std::time::Instant;
