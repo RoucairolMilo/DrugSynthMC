@@ -1,6 +1,6 @@
 DrugSynthMC is a molecule generation software.
 
-As is, it generates molecules by building the SMILES character by character to produce Drug-like molecules. It stops one the molecule is drug-like.
+As is, it generates molecules by building the SMILES character by character to produce Drug-like molecules. It stops once the molecule is drug-like.
 You can modify the score function to suit your needs.
 
 --- How to use ---
